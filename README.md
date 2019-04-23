@@ -2,4 +2,4 @@
 Мои первые шаги в GitHub
 
 
-[site](klbkov.github.io/site/"один из моих первых сайтов")
+[дубль2](klbkov.github.io/дубль2/)
