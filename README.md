@@ -1,2 +1,2 @@
-# klbkov.github.io
-мой второй сайт
+# Aman Kalbekov
+Мои первые шаги в GitHub
