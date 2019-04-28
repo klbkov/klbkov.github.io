@@ -1,0 +1,381 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Titillium Web', sans-serif;
+}
+header {
+	height: 596px;
+	background-color: #87509c;
+	position: relative;
+}
+.logo {
+	margin: 57px 0 0 212px; 
+}
+/*----------------------------------------------Меню*/
+nav {
+	display: inline;
+}
+.menu {
+	margin: 0;
+	float: right;
+	margin: 60px 195px 0 0;	
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a {
+	text-decoration: none;
+	width: 416px;
+	height: 13px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+	text-transform: uppercase;
+	margin-left: 40px;
+}
+/*-----------------------------------------------Заголовок*/
+.zagolovok {
+	height: 88px;
+	width: 906px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 145px;
+}
+.zagolovok h1 {
+	width: 906px;
+	height: 88px;
+	color: #f7f3ea;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 48.82px;
+}
+/*---------------------------------------------Кнопка*/
+.main-buttom {
+	text-align: center;
+	margin-top: 90px;
+}
+.main-buttom a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	border-radius: 5px;
+	background: #eb7d4b;
+	padding: 28px 82px;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+/*--------------------------------------------Секция-2*/
+.section2 {
+	height: 747px;
+	padding-top: 119px;
+	background-color: #17c2a4;
+}
+/*--------------------------------------------Контейнер*/
+.section2 .container {
+	margin: 0 205px 0 205px;
+}
+/*--------------------------------------------Текст-2*/
+.title2 {
+	text-align: center;	
+}
+.title2 h2 {
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 5px;
+	margin: 0 0 10px 0;
+}
+.title2 p {
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	margin: 25px 0 0 0;
+}
+.title2 .line {
+	height: 4px;
+	width: 87px;
+	background: #000;
+	opacity: 0.15;
+	margin: 0 auto;
+}
+/*-------------------------------------------Услуги*/
+.services {
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	padding: 0 190px;
+	margin-top: 100px;
+}
+.services h3 {
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+.services p {
+
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 24px;
+	width: 200px;
+}
+/*-----------------------------------------Секция-3*/
+.section3 {
+	height: 1323px;
+	background-color: #ffdd99;
+	padding-top: 120px;
+}
+.section3 .container {
+	text-align: center;
+	height: 100vh;
+}
+/*-----------------------------------------Текст*/
+.ptext h2 {
+	color: #393939;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin: 0;
+}
+.ptext .line {
+	height: 4px;
+	width: 87px;
+	background: #000;
+	opacity: 0.15;
+	margin: 10px auto
+}
+.ptext p {
+	color: #393939;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 26px;
+	letter-spacing: 0.36px;
+	margin-bottom: 42px;
+}
+/*---------------------------------------Кнопки*/
+.ptext a {
+	font-size: 18px;
+	font-weight: 600;
+	color: #393939;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left: 5px;	
+	border-radius: 5px;
+	background: #ebcb8d;
+	padding: 5px 24px;
+}
+.ptext a:hover {
+	background: #fff;
+}
+/*---------------------------------------Laptops*/
+.laptops {
+	display: flex;
+	justify-content: center;
+	margin-top: 65px;
+}
+.laptop-right {
+	margin-left: 20px;
+}
+.laptops p {
+	color: #393939;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+/*-----------------------------------------Кнопка*/
+.btn {
+	padding-top: 85px; 
+}
+.btn a {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #17c2a4;
+	border-radius: 5px;
+	padding: 24px 70px;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+/*-----------------------------------------Секция-4*/
+.section4 {
+	height: 655px;
+	padding-top: 117px;
+}
+.section4 .container {
+	margin: 0 305px 0 305px;
+	text-align: center;
+}
+/*-----------------------------------------Текст-3*/
+.text4 h2 {
+	color: #3c4761;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin: 0 0 10px 0;
+}
+.text4 p {
+	color: #3c4761;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0.36px;
+}
+.text4 .line {
+	height: 4px;
+	width: 87px;
+	background: #000;
+	opacity: 0.15;
+	margin: 0 auto
+}
+/*----------------------------------------Навыки*/
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+.skills h3 {
+	color: #3c4761;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+/*----------------------------------------Секция-5*/
+.section5 {
+	height: 819px;
+	background-color: #3c5499;
+}
+.section5 .container {
+	padding-top: 119px;
+}
+.text5 {
+	text-align: center;
+}
+.text5 h2 {
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 29.91px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin: 0;
+}
+.text5 .line {
+	height: 4px;
+	width: 87px;
+	background: #000;
+	opacity: 0.15;
+	margin: 24px auto;
+}
+.text5 address {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 80px;
+}
+form {
+	position: absolute;
+	padding: 0 400px;
+}
+.input1 {
+	border: none;
+	height: 58px;
+	width: 415px;
+	background: #273a71;
+	border-radius: 5px;
+}
+.input2 {
+	border: none;
+	height: 58px;
+	width: 415px;
+	background: #273a71;
+	border-radius: 5px;
+	margin-left: 24px;
+}
+.input3 {
+	border: none;
+	width: 860px;
+	height: 200px;
+	background-color: #273a71;
+	border-radius: 5px;
+	margin-top: 25px;
+}
+.text-form1 {
+	position: absolute;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 17px 0 0 30px;
+}
+.text-form2 {
+	position: absolute;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 17px 0 0 55px;
+}
+.text-form3 {
+	position: absolute;
+	display: block;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 45px 0 0 80px;
+	left: 24.2%;
+}
+.text-form1 span {
+	color: red;
+}
+.text-form2 span {
+	color: red;
+}
+.text-form3 span {
+	color: red;
+}
+.sssuka  {
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26.19px;
+	border-radius: 5px;
+	background: #30bae7;
+	padding: 28px 83px;
+	margin-top: 60px;
+}
+footer {
+height: 112px;
+background-color: #344b8e;
+}
+footer .container {
+	display: inline;
+}
+footer ul {
+	margin: 0;
+	padding-top: 48px;
+	text-align: center;
+}
+footer li {
+	display: inline-block;
+}
+footer li a {
+	text-decoration: none;
+	width: 416px;
+	height: 13px;
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 18px;
+	margin-left: 40px;
+}
+footer li a:hover {
+	color: #30a4d5;
+}
